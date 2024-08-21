@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes</title>
+    <link rel="stylesheet" href="css/Index.css">
+</head>
+<body>
+    <header>
+        <nav class="menuprincipal border">
+            <ul class="menu1 border">
+                <li class="item"></li>
+                    <a href="registro.html" target="_blank">quien soy</a>
+                <li class="item"></li>
+                    <a href="#" target="_blank">quien soy</a>
+                <li class="item"></li>
+                    <a href="#" target="_blank">quien soy</a>
+                <li class="item"></li>
+                    <a href="#" target="_blank">quien soy</a>
+
+            </ul>
+
+        </nav>
+        
+    </header>
+    <main>
+        <section class="section border">
+            <h1>tablas</h1>
+            
+            <table>
+                <caption class="border">titulo de la tabla</caption>
+                <thead>
+                        <tr>
+                            <th class="border">lunes</th>
+                            <th class="border">martes</th>
+                            <th class="border">miercoles</th>
+                            <th class="border">jueves</th>
+                        </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border">1</td>
+                        <td class="border">2</td>
+                        <td class="border" rowspan="2">3</td>
+                        <td class="border">4</td>
+                    </tr>
+                    <tr>
+                        <td class="border">1</td>
+                        <td class="border">2</td>
+                        
+                        <td class="border">4</td>
+                    </tr>
+                    <tr>
+                        <td class="border" colspan="4">
+                            DSCANSO 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="border">5</td>
+                        <td class="border">6</td>
+                        <td class="border">7</td>
+                        <td class="border">8</td>
+                    </tr>
+                    
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td class="border" colspan="4">ADSO</td>
+                    </tr>
+                </tfoot>
+                </caption>
+            </table>
+        </section>
+        <section>
+            <h1>FORMULARIO</h1>
+            <form class="form">
+                <div>
+                    <label for="nombre">Ingrese nombre</label><br>
+                    <input id="nombre"type="text" required>
+                </div>
+                <div>
+                    <label for="apellido">Ingrese su apellido</label><br>
+                    <input type="text" id="apellido" placeholder="ingrese apellido">
+                </div>
+                <div>
+                    <label for="email">email</label><br>
+                    <input type="email" id="email"placeholder="ingrese email">
+                </div>
+                <div>
+                    <label for="contraseña">contraseña</label><br>
+                    <input type="password" id="contraseña" placeholder="ingrese contra">
+                </div>
+                <div>
+                    <label for="mensaje">escriba su mensaje</label><br>
+                    <textarea name="mensaje" id="mensaje">escriba aqui</textarea>
+                </div>
+                <div>
+                    <label for="mensaje">suubir documento</label><br>
+                    <input type="file">
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Seleccione genero</legend><br>
+                        
+                        <input type="radio" name="genero" value="masculino">masculino
+                        <input type="radio" name="genero" value="femenino">femenino
+                        <input type="radio" name="genero" value="otro">otro
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Seleccione Jobie</legend><br>
+                        
+                        <input type="checkbox" name="genero" value="masculino">deporte
+                        <input type="checkbox" name="genero" value="femenino">ciencias
+                        <input type="checkbox" name="genero" value="otro">arte
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="fecha">fecha de nacimiento</label>
+                    <input type="date" name="fecha" value="fecha">
+                </div>
+                <div>
+                    <label for="pais">seleccione su pais</label>
+                    <select name="pais" id="pais">
+                        <option value="colombia">colombia</option>
+                        <option value="ecuador">ecuador</option>
+                        <option value="chile">chile</option>
+                    </select>
+                    
+                </div>
+
+                <button>enviar</button>
+            </form>
+    </main>
+    <footer>
+    </footer>
+    
+</body>
+</html>

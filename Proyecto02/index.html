@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 02</title>
+    <meta name="description" content="Contenido academico">
+    <link rel="shortcut icon" href="img/descarga.jfif" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="header background">
+        <article class="border">
+            Logo
+        </article>
+        <nav class="border menuprincipal">
+            <ul class="menu1">
+                <li class="item">
+                    <a href="https://www.instagram.com/" target="_blank">Inicio</a>
+                </li>
+                <li class="item">
+                    <a href="registro.html" target="_blank">Registro</a>
+                </li>
+                <li class="item">
+                    <a href="#listas">Listas</a>
+                </li>
+                <li class="item">
+                    <a href="registro.html#parrafo2" target="_blank">Parrafo 2</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="border">
+            Login
+        </nav>
+    </header>
+    <br>
+    <main class="main">
+        <section class="border fondo">
+            <h1>Encabezado</h1>
+            <h2>Encabezado </h2>
+            <h3>Encabezado </h3>
+            <h4>Encabezado </h4>
+            <h5>Encabezado </h5>
+            <h6>Encabezado </h6>
+        </section>
+        <br>
+        <section class="border">
+            <h1><b>PARRAFOS</b></h1>
+            <p><strong>Lorem ipsum dolor</strong> sit amet consectetur adipisicing elit. <i>Eius rem excepturi
+                    distinctio</i>, ab fugiat minus, dicta voluptatum qui, <em>blanditiis ullam</em> non neque
+                consectetur incidunt id nam dignissimos repellat eligendi placeat.</p>
+            <p class="medidas">Lorem ipsum dolor it amet consectetur adipisicing elit. Harum blanditiis
+                quas a optio id autem libero incidunt voluptatum. Laudantium nemo
+                    eligendi, voluptatem sapiente eius perferendis ipsum iure cum in necessitatibus.
+            </p>
+            <blockquote cite="https://www.instagram.com/">HAce 50 años</blockquote>
+        </section>
+        <br>
+        <section class="border">
+            <h1 id="listas">Lista</h1>
+            <h2>Listas ordenadas</h2>
+            <ol>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ol>
+            <h3>Listas desordenadas</h3>
+            <ul>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+            <h4>Listas de definición</h4>
+            <dl>
+                <dt><strong>Termino</strong></dt>
+                <dd><i>Descripción del termino 1</i></dd>
+                <dt><strong>Termino 2</strong></dt>
+                <dd><i>Descripción del termino 2</i></dd>
+            </dl>
+        </section>
+        <section class="border">
+            <h1>Tablas</h1>
+            <table>
+                <caption class="border">Titulo de la tabla</caption>
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border">7:00 - 9:00</td>
+                        <td class="border">Etica</td>
+                        <td class="border" rowspan="2">Algoritmos</td>
+                        <td class="border">Diseño Web</td>
+                        <td class="border" rowspan="2">Bases de Datos</td>
+                        <td class="border" rowspan="2">Matematicas</td>
+                    </tr>
+                    <tr>
+                        <td class="border">9:00 - 10:00</td>
+                        <td class="border">Ingles</td>
+                        <td class="border">Diseño</td>
+                    </tr>
+                    <tr>
+                        <td class="border" colspan="6">DESCANSO</td>
+                    </tr>
+                    <tr>
+                        <td class="border">10:30 - 13:00</td>
+                        <td class="border">Deportes</td>
+                        <td class="border">Diseño</td>
+                        <td class="border">Diseño Web</td>
+                        <td class="border">Moviles</td>
+                        <td class="border">Matematicas</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="border" colspan="6">ADSO 2024</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section class="border">
+            <h1>FORMULARIOS</h1>
+            <form class="form">
+                <div>
+                    <label for="nombre">Ingrese Nombre</label> <br>
+                    <input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <div>
+                    <label for="apellido">Ingrese su Apellido</label> <br>
+                    <input id="apellido" type="text" name="apellido" placeholder="Ingrese su apellido" required>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Seleccione Genero</legend>
+                        <input type="radio" name="genero" value="masculino">Masculino
+                        <input type="radio" name="genero" value="femenino">Femenino
+                        <input type="radio" name="genero" value="otro">Otro
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Seleccione Jobie</legend>
+                        <input type="checkbox" name="futbol" value="futbol">Futbol
+                        <input type="checkbox" name="gym" value="gym">Gym
+                        <input type="checkbox" name="otro" value="otro">Otro
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="fecha de nacimiento">Fecha de Nacimiento</label> <br>
+                    <input id="fecha de nacimiento" type="date" name="fecha de nacimiento"
+                        placeholder="Ingrese su cumpleaños" required>
+                </div>
+                <div>
+                    <label for="pais">Pais</label>
+                    <select name="pais" id="pais">
+                        <option value="argentina">Argentina</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="chile">Chile</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="uruguay">Uruguay</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="ciudad">Seleccione Ciudad</label> <br>
+                    <input id="ciudad" type="text" name="ciudad" placeholder="seleccione" required>
+                </div>
+                <div>
+                    <label for="mensaje">Escriba Su Mensaje</label> <br>
+                    <textarea name="mensaje" id="mensaje">escriba aqui</textarea>
+                </div>
+                <div>
+                    <label for="email">Ingrese su Email</label> <br>
+                    <input id="email" type="email" name="email" placeholder="example@gmail.com">
+                </div>
+                <div>
+                    <label for="contraseña">Ingrese su Contraseña</label> <br>
+                    <input id="contraseña" type="password" name="contraseña" placeholder="Ingrese una contraseña">
+                </div>
+                <div>
+                    <label for="documento">Subir documento</label> <br>
+                    <input id="documento" type="file" name="documento">
+                </div>
+
+                <button>Registrar</button>
+            </form>
+            <hr>
+            <section>
+                <h1>MULTIMEDIA</h1>
+                <article class="images">
+                    <img class="title" src="img/img1.jpg" alt="Marca">
+
+                </article>
+                <section class="images">
+                    <video src="https://www.youtube.com/watch?v=G80KahjwGU8"></video>
+                </section>
+                <section class="images">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/G80KahjwGU8?si=y7i0vs8wr9nNtqzT"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </section>
+                <section class="images">
+                    <audio src=""></audio>
+                </section>
+                <section class="images">
+                    <h1>Bordes</h1>
+                    <p class="border">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias qui nihil dolor fuga in,
+                        vitae voluptates, neque nam eaque rerum sapiente eius? Facere doloremque doloribus velit natus
+                        debitis officia reprehenderit!
+                    </p>
+                    <p class="border shadow">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias qui nihil dolor fuga in,
+                        vitae voluptates, neque nam eaque rerum sapiente eius? Facere doloremque doloribus velit natus
+                        debitis officia reprehenderit!
+                    </p>
+                    <p class="border t-shadow">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias qui nihil dolor fuga in,
+                        vitae voluptates, neque nam eaque rerum sapiente eius? Facere doloremque doloribus velit natus
+                        debitis officia reprehenderit!
+                    </p>
+                </section>
+
+            </section>
+
+        </section>
+    </main>
+    <footer class="footer background">
+        pie de pagina
+    </footer>
+</body>
+
+</html>

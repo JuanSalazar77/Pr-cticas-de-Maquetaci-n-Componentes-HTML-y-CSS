@@ -1,0 +1,74 @@
+header{
+    height:10vh; 
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px;
+    width: 40%;  
+}
+section{
+    background-color: rgb(87, 216, 156);
+}
+main{
+    height:80vh;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+footer{
+    display: flex;
+    height:10vh;
+    height: 260px;
+    background-color: rgb(201, 57, 57);
+    
+}
+nav{
+    height: 100%; 
+    width: 100%;
+    background-color: rgb(179, 166, 207);
+    text-align: center;
+}
+.articulo1{
+    background-color: rgb(161, 129, 129);
+    margin: 10px;
+    display: flex;  
+}
+.articulo2{
+    background-color: rgb(172, 142, 142);
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.articulo3{
+    background-color: rgb(172, 142, 142);
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu1{
+    display: flex;
+    justify-content: space-evenly ;
+}
+.item{
+    list-style: none;
+}
+.ejemplos{
+    height: 240px; 
+    background-color: rgb(167, 141, 141);
+    margin: 10px;
+    width: 400px;
+}
+.ejemplos2{
+    height: 240px; 
+    background-color: rgb(167, 141, 141);
+    margin: 10px;
+    width: 400px;
+}
+.border{
+    border: 1px solid black;
+}
+.form{
+    margin: auto;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
